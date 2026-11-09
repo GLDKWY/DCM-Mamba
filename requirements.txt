@@ -1,0 +1,22 @@
+# Install PyTorch separately to match your CUDA, then:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# Then: pip install -r requirements.txt
+# Then build CUDA kernels:  cd mamba-1p1p1 && pip install -e . && cd ..
+
+torch>=2.0
+torchvision>=0.15
+timm>=0.9.0
+einops>=0.6.0
+easydict
+pyyaml>=6.0
+numpy
+opencv-python
+pandas
+scipy
+tqdm
+matplotlib
+tensorboard
+lmdb
+# Optional faster image decoding / storage backends:
+# jpeg4py

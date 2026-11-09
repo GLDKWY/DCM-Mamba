@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# --- Local config with private absolute paths ---
+lib/train/admin/local.py
+lib/test/evaluation/local.py
+
+# --- Training / inference outputs ---
+output/
+tensorboard/
+RGBT_workspace/results/
+*.log
+
+# --- Model checkpoints (large binaries) ---
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.onnx
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
