@@ -187,19 +187,6 @@ Predictions are saved to `RGBT_workspace/results/<dataset>/<yaml_name>_testep<ep
 
 ---
 
-## Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex
-@article{li2026dcm,
-  title   = {DCM-Mamba: Differential Cross-Modal Interaction Mamba with
-             Selective Multi-Scale Fusion for RGBT Tracking},
-  author  = {Li, Minshu and others},
-  journal = {Journal of Visual Communication and Image Representation},
-  year    = {2026}
-}
-```
 
 ## Acknowledgements
 
